@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.qr-component{
+  width: 280px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+img{
+  border-radius: 30px;
+  width: 280px;
+}
+h2{
+  padding: 25px 0 20px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+p{
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 20px;
+  font-weight: 400;
+}
