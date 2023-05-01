@@ -19,6 +19,7 @@ main {
   justify-content: center;
   flex-direction: column;
   margin: 25px;
+  background-color: hsl(0, 0%, 98%);
 }
 .intro {
   text-align: center;
@@ -57,4 +58,3 @@ p {
     justify-content: center;
   }
 }
-

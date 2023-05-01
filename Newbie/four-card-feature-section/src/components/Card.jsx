@@ -3,7 +3,7 @@ const Card = (props) => {
     <div className='card' style={{borderTop: `4px solid ${props.border}`}}>
       <h2 className='card-title'>{props.title}</h2>
       <p className='card-sub-title thin'>{props.subTitle}</p>
-      <img src={props.img} />
+      <img src={props.img} alt={props.title}/>
     </div>
   );
 };
