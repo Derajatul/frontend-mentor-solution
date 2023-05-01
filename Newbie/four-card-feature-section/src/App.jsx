@@ -12,8 +12,8 @@ function App() {
   return (
     <main>
       <div className='intro'>
-        <h2 className='thin'>Reliable, efficient delivery</h2>
-        <h2>Powered by Technology</h2>
+        <h1 className='thin'>Reliable, efficient delivery</h1>
+        <h1>Powered by Technology</h1>
         <p className='thin'>
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
