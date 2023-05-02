@@ -23,8 +23,8 @@ const App = () => {
         id='card'
       >
         <p className='green py-6'>Advice #{id}</p>
-        <h1 className='text-center text-xl font-extrabold'>{loading ? "Loading" : ""}</h1>
-        <h1 className='text-center text-xl font-extrabold'>{advice}</h1>
+        <h1 className='text-center text-xl font-extrabold text-slate-300'>{loading ? "Loading" : ""}</h1>
+        <h1 className='text-center text-xl font-extrabold text-slate-300'>{advice}</h1>
         <picture className='pb-12 pt-6'>
           <source
             media='(min-width: 768px)'
