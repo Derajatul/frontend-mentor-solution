@@ -1,9 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  /* border: 1px solid red; */
+}
+main {
+  background-color: var(--dark-blue);
+}
+#card {
+  background-color: var(--dark-grayish-blue);
+}
+.green{
+  color: var(--neon-green);
+}
+.bg-green{
+  background-color: var(--neon-green);
+  color: black;
+}
+.btn:hover{
+  color: var(--neon-green);
+  box-shadow: 0 0px 15px var(--neon-green);
 }
