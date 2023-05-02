@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  /* border: 1px solid red; */
+}
 :root {
   font-family: 'Epilogue', sans-serif;
 }
@@ -17,7 +20,7 @@
   background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 80px;
+  padding: 80px 0px 20px 0px
 }
 .sidenav a {
   text-decoration: none;

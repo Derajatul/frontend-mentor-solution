@@ -9,9 +9,9 @@ function App() {
     <>
       <header>
         <Navbar />
-        <Hero />
       </header>
-      <main>
+      <main className='lg:flex lg:flex-row-reverse'>
+        <Hero />
         <MainContent />
       </main>
       <footer>
