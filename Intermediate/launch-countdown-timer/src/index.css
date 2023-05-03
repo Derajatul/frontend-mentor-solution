@@ -21,3 +21,12 @@
   font-family: 'Red Hat Text', sans-serif;
   /* border: 1px solid red; */
 }
+main{
+  height: 100vh;
+  background-position: -2;
+  background-repeat: no-repeat;
+  background-image: url(./bg-stars.svg);
+}
+.hills{
+  width: 1440px;
+}

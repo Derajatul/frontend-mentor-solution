@@ -1,15 +1,22 @@
+/* eslint-disable react/no-unescaped-entities */
+import Countdown from './components/countdown';
 import './index.css';
-import bgStars from './assets/bg-stars.svg';
-import patternHills from './assets/pattern-hills.svg'
 
 const App = () => {
   return (
     <>
-      <h1 className='text-center text-3xl font-bold lg:text-5xl'>
-        Hello world
-      </h1>
-      <img src={bgStars} alt="" />
-      <img src={patternHills} alt="" />
+      <main className='relative overflow-hidden'>
+        <h1 className='mt-32 text-center text-3xl font-bold text-white lg:text-5xl'>
+          WE'RE LAUNCHING SOON
+        </h1>
+        <Countdown />
+        <img
+          src='./pattern-hills.svg'
+          alt='pattern-hills'
+          className='absolute bottom-0 min-w-max'
+        />
+      </main>
+      <footer></footer>
     </>
   );
 };
