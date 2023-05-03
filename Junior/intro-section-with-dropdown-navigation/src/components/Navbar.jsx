@@ -12,10 +12,8 @@ const Navbar = () => {
         <a className='btn btn-ghost normal-case text-3xl font-bold'>snap</a>
 
         <label className='btn btn-circle swap swap-rotate z-10'>
-          {/* <!-- this hidden checkbox controls the state --> */}
-          <input type='checkbox' onClick={handleDrawer} />
+          <input type='checkbox' onClick={handleDrawer}/>
 
-          {/* <!-- hamburger icon --> */}
           <svg
             className='swap-off fill-current'
             xmlns='http://www.w3.org/2000/svg'
@@ -38,7 +36,6 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
-
       {drawer ? (
         <div className='sidenav text-gray-700'>
           <div tabIndex={0} className='collapse collapse-arrow'>
@@ -76,7 +73,6 @@ const Navbar = () => {
                 />
                 <a className='text-base py-1 px-4'>Planning</a>
               </div>
-             
             </div>
           </div>
           <div tabIndex={0} className='collapse collapse-arrow'>
@@ -87,7 +83,7 @@ const Navbar = () => {
               <a className='text-base py-2 px-4'>Blog</a>
             </div>
           </div>
-          <a className='text-base h-14 py-2 px-4'>Carrers</a>
+          <a className='text-base h-14 py-2 px-4'>Careers</a>
           <a className='text-base h-14 py-2 px-4'>About</a>
 
           <button className='text-base h-14 py-2 px-4 w-full'>Login</button>
