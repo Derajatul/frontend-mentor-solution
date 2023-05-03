@@ -22,7 +22,9 @@ const Hero = () => {
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <button className='btn lg:mr-auto my-6 px-3 mx-auto'>Learn more</button>
+        <button className='btn my-6 px-3 mx-auto block'>
+          Learn more
+        </button>
 
         <div className='flex flex-wrap justify-evenly my-11 px-3 lg:w-full'>
           <img
