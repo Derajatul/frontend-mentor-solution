@@ -1,6 +1,6 @@
 # Frontend Mentor Solution
 
-This is my solution for challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges).
+This is my solution for challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 ## Description
 
