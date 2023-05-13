@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-image: url('./bg-intro-desktop.png');
+  background-color: hsl(0, 100%, 74%);
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url('./bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+  }
+}
